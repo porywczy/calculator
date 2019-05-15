@@ -8,4 +8,3 @@ after_success:
   
 CODECOV_TOKEN="6d79155e-8568-478e-97d6-2dba7cebe355"
 
-[![codecov](https://codecov.io/gh/porywczy/calculator/branch/master/graph/badge.svg)](https://codecov.io/gh/porywczy/calculator)
