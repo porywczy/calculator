@@ -28,7 +28,12 @@ public class Calculator {
 
     public double avg(int... args) {
 
-        return (a + b)/2;
+        int sum = 0, counter = 0;
+        for ( int element : args ) {
+            sum += element;
+            counter++;
+        }
+        return (sum)/counter;
 
     }
     

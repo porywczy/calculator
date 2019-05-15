@@ -34,7 +34,7 @@ public class CalculatorTest {
     public void testDivide() {
 
         Calculator calc = new Calculator();
-        assertEquals(2, calc.divide(6,3));
+        assertEquals(2, calc.divide(6,3), 0.01);
 
     }
 
@@ -50,7 +50,7 @@ public class CalculatorTest {
     public void testAvg() {
 
         Calculator calc = new Calculator();
-        assertEquals(5, calc.avg(6,4, 3, 7));
+        assertEquals(5, calc.avg(6,4, 3, 7), 0.01);
 
     }
 
